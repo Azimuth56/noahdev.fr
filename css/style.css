@@ -26,3 +26,45 @@ h1{
   font-size: 6em;
   margin-top: 250px;
 }
+h2{
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 5px solid salmon;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#portrait{
+  border-radius: 50%;
+}
+.monProfil{
+
+}
+.wrapper{
+  display: flex;
+}
+.carteRouge{
+  background-color: #E68D8D;
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  position: relative; /*Il faut que ce soit relative sinon je ne peux pas utiliser position:absolute dans .boutonCV*/
+}
+.carteRouge p:first-child{
+  font-size: 50px;
+}
+.carteRouge p:nth-child(2){
+  font-size: 35px;
+}
+.boutonCV{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  background-color: #fff;
+  width: 90px;
+  text-align:center;
+  border-radius: 10px;
+  padding: 10px;
+}
