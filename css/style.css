@@ -1,0 +1,28 @@
+:root {
+    --main-bg-color: #F6F4EA;
+  }
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+    background-color: var(--main-bg-color);
+}
+
+.land{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../land.svg');
+  background-repeat: no-repeat; /* pour ne pas que l'image se répète*/
+  background-position: bottom;/* on place l'image en bas*/
+  background-size: contain; /*pour que l'image s'adape au téléphone*/
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 6em;
+  margin-top: 250px;
+}
